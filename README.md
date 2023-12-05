@@ -5,4 +5,8 @@ The container is set up with all the necessary configs to run a Drupal 10 websit
 
 composer create-project drupal/recommended-project website-data
 
+Add a version number if you need to install a specific version of Drupal.
+
+composer create-project drupal/recommended-project:9.5.11 website-data
+
 
